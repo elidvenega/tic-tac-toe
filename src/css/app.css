@@ -104,10 +104,10 @@ button:focus {
     background-color: #576574;
   }
   .input {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .winner {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .winner-text {
@@ -119,3 +119,9 @@ button:focus {
     padding: 0.4rem;
   }
 }
+
+
+
+
+
+
