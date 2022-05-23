@@ -1,0 +1,32 @@
+.info {
+	width: 30vw;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: whitesmoke;
+}
+
+.player {
+	border: 2px solid #f6546a;
+	border-radius: 5%;
+	padding: .5rem 0;
+	display: flex;
+	font-size: 1.5rem;
+	justify-content: center;
+	align-items: center;
+	width: 10vw;
+}
+
+@media (max-width: 767px) {
+	.info {
+	  display: flex;
+	  flex-direction: column;
+	  padding: 10px;
+	}
+	.player {
+		font-size: 12px;
+		padding: 5px;
+		margin: 10px;
+		width: 16vw;
+	}
+  }
