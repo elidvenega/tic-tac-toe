@@ -42,6 +42,7 @@ const Board = ({ reset, setReset, winner, setWinner }) => {
     const cells = boardRef.current.children;
 
     // Clearing out the board
+    // makes the board refresh again
     for (let i = 0; i < 9; i++) {
       cells[i].innerText = "";
     }
