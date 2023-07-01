@@ -20,5 +20,5 @@ https://tic-tac-toegame1.netlify.app/
 ```bash
   cd tic-tac-toe
   npm install
-  npm start
+  npm run dev
 ```
